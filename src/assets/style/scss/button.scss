@@ -1,0 +1,39 @@
+/*! btn.less 按钮样式*/
+
+button,
+.btn {
+  display: block;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  text-align: center;
+
+  &.no {
+    background-color: transparent;
+    color: #000;
+    border-radius: 0;
+    height: 14px;
+    line-height: 14px;
+  }
+}
+
+.btn-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn-box-w100 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  .btn {
+    border-radius: 0;
+  }
+}
