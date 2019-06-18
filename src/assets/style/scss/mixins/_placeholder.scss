@@ -1,0 +1,25 @@
+// input placeholder属性文字颜色大小
+.placeholder {
+  &:-webkit-input-placeholder {
+    color: $placeholder-color;
+    font-size: $placeholder-font-size;
+  }
+
+  &:-moz-placeholder {
+    color: $placeholder-color;
+    font-size: $placeholder-font-size;
+  }
+
+  &::-moz-placeholder {
+    color: $placeholder-color;
+    font-size: $placeholder-font-size;
+  }
+
+  &:-ms-input-placeholder {
+    color: $placeholder-color;
+    font-size: $placeholder-font-size;
+  }
+
+}
+
+@mixin placeholder ($placeholder-color, $placeholder-font-size) {}
